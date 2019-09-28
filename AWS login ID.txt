@@ -1,0 +1,10 @@
+002000177346
+
+
+git ---version controll tool
+
+git hub -- Repositry (Pull and Push developement coad)
+
+jenkins -- ci/cd operations (Contunation Integered / Contunation deployment)
+
+

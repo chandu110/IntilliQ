@@ -1,0 +1,129 @@
+1 sudo yum update 
+
+1  cd /root/
+    2  ls
+    3  cd /root/.ssh/
+    4  ls
+     cd /home/ec2-user/.ssh/ ( Check this command if it is not showing authorized_key)
+5  sudo vi authorized_keys
+
+Note: Which we are genarate authorized key from master server past it over here, follow the above vi edit.once save the file.
+check the status of authorized key. Please use below "cat" command it is only view.
+
+cat authorized_keys
+    Then check the version of "git"
+
+6. git --version
+
+===========================================
+****Ansible concept**** 
+=========================
+Install the Centos on vmware workstation. 
+
+My want to connect the controller.
+
+please follow the below process.
+
+====================================
+Only we have to use the following commands on hostmachine. Here my host machine "Centos".
+=================================================================
+Only we have run required 2 commands on host machines.
+1.nmtui
+2.ip addr
+
+
+Once get the ipaddress we will follow the below commands on controller.
+
+
+This is done by controller.
+==============================
+1. ssh-copy-id root@publie ip of host machine
+give password first ( hostmachine password)
+
+2. In controller to use following commands. "cd /etc/ansible/ "
+--> ls
+Then we have to give your host machine "Ip address"
+
+vi hosts
+add our host ip address in controller. As per the below example. 
+
+Example
+[chandu]
+192.168.1.52
+
+and save the file :wq!
+
+
+Then after we will try ping our IP address as per the below example.
+
+3. "ansible chandu -m ping" (-m Moudle /ping Moudle Name)
+only it will show the "chandu" host details . It's run on controller. 
+
+"-a represent "argument".
+
+To know the how many machines connected to the our controller to use following command.
+
+ansible -m ping all 
+
+
+IMP:-We have to try adhoc commands.
+----------------------------------------------------------
+
+Check the importent word document for ansible commands.
+ 
+
+1.ansible adhoc commands. download from "cloudsoftAWS" and check for the below things.
+
+2.Managing Packges
+
+3.Deploy your webapp straight from git
+
+4.Managing services
+
+
+www.quora.com
+Vmware Conceft:- please check below
+
+It'a vmware Storage DRS
+Affinity --> keep VM's toughter
+
+Antiaffinity -->separate vm's
+
+Evc:- Enhanced Vmotion compatibility.
+
+
+ Move to content from vip.html to index.html, because we are getting the index.httl error.
+
+So we can follow below syntax.
+ index.html
+Besically we have to write below syntax
+
+vi index.html
+
+Ex:- write the program
+
+"Good Morning for all of them"
+
+Save it --> :wq!
+
+How to execute the progrem. Please check the blow commad.
+.
+# ansible-playbook kd.yml (It's a Example), which we are create the ".yml" file. We are give to "ansible" exicutable commands
+
+Ex:- ansible-playbook kd.yml
+
+Then check the output of status, all are secusses good to go.
+
+Go to host machine(ex: iwas installed centOS) verify where it is copy the (.html) file by using below command.
+[root@Ansible /]cd /usr/share/nginx/html
+
+#ls
+
+it will show the index.html file. it is stored in the following location.
+
+
+
+
+
+
+

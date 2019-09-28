@@ -1,0 +1,91 @@
+Emposys
+Manage virtual servers / clusters & Manage shared storage systems 
+Contact : Praveen – 8179009449 
+=================================================================
+Here check 2 youtube videos and follow the failover cluster 
+
+iSCSI Virtual Disks with Windows Server 2012 R2--> Done
+
+https://www.youtube.com/watch?v=84K-xYXFkzU (nice link for IQN created)
+
+How to configure the failover cluster windows 2012 R2 (Nice youtube vedio)
+
+https://www.youtube.com/watch?v=lxd1YQKIt74
+
+
+This is we want to get iscsi traget create and configuraing 
+SQL Server 2012 Failover Cluster Installation & Configuration Step By Step
+
+https://www.youtube.com/watch?v=NNVYYUgPrgY 
+========================================================================
+https://www.youtube.com/watch?v=s5oqSfX4aOE
+https://www.youtube.com/watch?v=NNVYYUgPrgY
+https://www.youtube.com/watch?v=E1dOJpBJAHU(Wsus)
+https://www.youtube.com/watch?v=AflZ0QpdsHk (CIFS)
+SMB--> Server Massage Block
+====================================================================
+https://www.youtube.com/watch?v=8qRMwpgLJek (Network Teaming)--> please check it.
+
+https://www.youtube.com/watch?v=dmSHQsJl5mg (GPO)
+==================================================================
+Print Device:- 
+The physical printer ( Where the paper comes out)
+
+Printer:-
+
+Sofrware that communicated with the print device.
+
+Local printer :-
+Printer drivers are installed on the local computer.
+
+Network printers:-
+Connect to a printer that is installed on another computer.  
+
+=======================================================
+
+https://www.youtube.com/watch?v=p3IL7pi0r4A
+How to configure DFS on Windows Server 2012 R2 (Explained)
+=======================================================
+https://www.youtube.com/watch?v=VeLE8iUVPww
+How to Install or Setup FTP Server using Windows 2012
+======================================================
+How a DNS Server (Domain Name System) works.
+https://www.youtube.com/watch?v=mpQZVYPuDGU
+========================================================
+SCOM 2012 R2 (System Center Operations Manager) Installation Step By Step Full (Nice) Traineer Vikas
+https://www.youtube.com/watch?v=NfT_xZwr8H0
+
+
+Doc (SCOM 2012) Step By-Step By:- https://www.informaticar.net/how-to-install-systemcenter-operations-manager-2012-r2-scom-2012-r2/
+
+SCCM 2012 R2 Step by Step - Part 1 - Installation - Build Infrastructure and AD Install
+
+https://www.youtube.com/watch?v=VGn2KyNd3qo
+===========================================================
+10 – Windows Server 2012 – How to Deploy Network Printer by using Group Policy  (Nice)
+https://www.youtube.com/watch?v=QUGzZXPya5U
+
+Printer Services
+https://www.youtube.com/watch?v=ubzG1Q47BEw
+
+============================================================
+MCSA 70-410 18. Group Policy Security Filtering
+https://www.youtube.com/watch?v=CWqYCHth0mg
+==========================================================
+https://www.youtube.com/watch?v=iuRBmpQ293s
+
+How to perform a non-authoritative and authoritative AD restore on Windows Server 2012 R2
+=========================================================
+https://www.youtube.com/watch?v=WQYZuo--obQ
+DNS Server BACKUP and Restore via Command Line
+=========================================================
+
+Host-D --> Management Agent
+
+vpxa --> Vcenter Agent
+
+Vpxd --> Vcenter service
+
+FDM --HA Agent
+
+
